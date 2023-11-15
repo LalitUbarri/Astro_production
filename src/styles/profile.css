@@ -1,0 +1,544 @@
+.active_breadcrumbs {
+  background-color: #ff9c05 !important;
+}
+ul#breadcrumbs-two {
+  margin: 0;
+  padding: 6px 0px;
+  list-style: none;
+}
+.head_title {
+  width: auto;
+  min-width: 150px;
+}
+#breadcrumbs-two li:first-child {
+  margin: 0 0.5em 0 0.1em;
+}
+#breadcrumbs-two li {
+  float: left;
+  margin: 0px 7px;
+}
+#breadcrumbs-two li a {
+  background: #ccc;
+  padding: 0.13em 0.4em;
+  font-size: 13px;
+  float: left;
+  text-decoration: none;
+  color: #454545;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+#breadcrumbs-two li a.active_breadcrumbs {
+  background: var(--gradient_color);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase !important;
+}
+#breadcrumbs-two li a.active_breadcrumbs:before {
+  border-color: var(--consult_astrologer_color) var(--consult_astrologer_color) var(--consult_astrologer_color) #0000 !important;
+}
+#breadcrumbs-two li a.active_breadcrumbs:before,
+#breadcrumbs-two li a:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  border-color: #ccc #ccc #ccc #0000;
+  border-style: solid;
+  border-width: 15px 0px 15px 14px;
+  left: -14px;
+}
+#breadcrumbs-two li:last-child a:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: 0;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+  right: 0;
+  border-radius: 5px;
+}
+#breadcrumbs-two li:first-child a:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: 0;
+  border: 0 solid #f1f2f2;
+  border-left-color: #0000;
+  left: 0;
+}
+#breadcrumbs-two li a:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  border-top: 15px solid #0000;
+  border-bottom: 15px solid #0000;
+  border-left: 12px solid #ccc;
+  right: -12px;
+  z-index: 9;
+}
+
+.pandit_profile_container {
+  width: 75%;
+}
+.pandit_profile_container1 {
+  width: 100% !important;
+}
+.pandit_profile_inner_container {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #eeee;
+  border-radius: 5px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.pandit_profile_about_section {
+  width: 100%;
+}
+.pandit_profile_image {
+  /* border: 1px solid red; */
+  /* padding: 10px 20px; */
+  width: 35%;
+}
+.pandit_profile_chat_and_talk_and_report_card .call_card {
+  margin-right: 20px;
+  width: 150px;
+}
+.call_img_card {
+  margin-right: 10px;
+}
+.pandit_profile_details {
+  width: 65%;
+  padding: 10px;
+}
+.profile_container_img {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user_image {
+  width: 270px;
+  height: 270px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.user_image .panditImage {
+  width: 100%;
+  border-radius: 50%;
+}
+.vrified_pandit {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin-left: 50%;
+  transform: translate(-50%, 50%);
+}
+.user_count span {
+  font-size: 12px;
+  color: #9a9a9a;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.pandit_profile_personal_details .short_desc {
+  border: 1px solid #eee;
+  border-radius: 30px;
+  color: #9a9a9a;
+  padding: 8px 15px;
+  background-color: #fff;
+  /* margin: 10px; */
+  letter-spacing: 1px;
+}
+.pandit_prifile_language .language,
+.pandit_profile_exp .language {
+  color: #9a9a9a;
+}
+.pandit_profile_descroption {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.call_card {
+  width: 17%;
+}
+
+.icons_Details {
+  display: flex;
+}
+.userCharges {
+  margin-left: 10px;
+}
+.profileUserDetails {
+  display: flex;
+  justify-content: space-around;
+}
+.profile-body {
+  text-align: left;
+}
+.AboutUser p {
+  text-align: justify;
+  letter-spacing: 1px;
+}
+.profileUser p,
+.AboutUser p {
+  margin: 0px;
+}
+.AboutUser {
+  padding: 15px;
+  border-top: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
+}
+.ReviewHead {
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+}
+.profile-body .profile-pic {
+  max-width: 161px;
+}
+
+.user-profile-pic {
+  width: 100%;
+  height: 100%;
+  border: 0.5px solid #707070;
+  opacity: 1;
+  border-radius: 50%;
+}
+.pic {
+  position: relative;
+}
+.pic .right-tik {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  bottom: 0% !important;
+  left: 50%;
+  transform: translate(-50%, 40%);
+}
+
+.profileUser .username {
+  font-size: 30px;
+  letter-spacing: 0px;
+  color: #414853;
+  opacity: 1;
+}
+
+.profileUser .btn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.5px solid #9a9a9a;
+  border-radius: 18px;
+  opacity: 1;
+  height: 36px;
+  margin: 5px;
+  font-size: 16px;
+  /* font-weight: 600; */
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 1;
+}
+
+.profileUser .language {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 1;
+}
+
+.profile-details .exp {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #222222;
+}
+
+.first-star {
+  width: 18px;
+  height: 17px;
+  margin: 0 4.11px 0 0;
+}
+
+.star {
+  width: 18px;
+  height: 17px;
+  margin: 0 4.11px 0 4.11px;
+}
+
+.last-star {
+  width: 18px;
+  height: 17px;
+  margin: 0 0 0 4.11px;
+}
+
+.profile-rating {
+  margin-top: 17.79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviewDate {
+  width: 80%;
+  text-align: right;
+}
+.Icon_U {
+  width: 35px;
+  height: 35px;
+  background: #ff9c05;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+.Rating_U label {
+  margin: 0px;
+  margin-top: 5px;
+}
+.userIcon {
+  width: 50%;
+}
+.total {
+  font-size: 10px;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 1;
+  margin-top: 11.08px;
+  text-align: center;
+}
+
+.profile-pic .total img {
+  width: 14px;
+  height: 17px;
+  margin-right: 5.89px;
+}
+
+.profile-details .contect-icon {
+  width: 38px;
+  height: 38px;
+}
+
+.profile-details .contect {
+  max-width: 38px;
+}
+
+.contect-p1 {
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 1;
+  margin: 0px;
+  width: 72px;
+}
+
+.contect-p1-count {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #414853;
+  opacity: 1;
+  margin: 0px;
+}
+
+.contect-p2 {
+  text-align: left;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #414853;
+  opacity: 1;
+  margin: 0px;
+}
+
+.profile-details .contect-icon-row {
+  margin: 25px 0 20.5px 0;
+}
+
+.profile-details-border {
+  border-bottom: 0.5px solid #9a9a9a50;
+}
+
+.profile-body .about-us-title {
+  text-align: left;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #414853;
+  opacity: 1;
+  margin-bottom: 0px;
+}
+
+.profile-body .about-us-details {
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 1;
+}
+
+.profile-body .about-us {
+  margin-top: 20px;
+}
+
+.reviews-left {
+  max-width: 317.5px;
+  text-align: center;
+}
+
+.rating-count {
+  font-size: 50px;
+  letter-spacing: 0px;
+  color: #414853;
+  opacity: 1;
+  margin: 0%;
+}
+
+.reviews-right .progress {
+  max-width: 331px;
+  height: 14px;
+  background: #edf0f1 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+  margin: 7.5px auto 7.5px auto;
+}
+
+.progress-bar-1 {
+  background-color: #418f21;
+}
+
+.rating-date .date {
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 1;
+}
+
+.profile-rating-date {
+  padding: 10px;
+}
+
+.date-col {
+  padding: 10px;
+}
+
+.rating-date-row {
+  margin-top: 22px;
+  border-bottom: 1px solid #eee;
+  padding: 0px 10px;
+}
+.Review_head {
+  border-bottom: 1px solid #eee;
+}
+.rasi-birthday {
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 1;
+}
+
+.user-rating {
+  background: #edf0f1 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.user-rating .home-name {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #414853;
+  opacity: 1;
+  margin: 0%;
+}
+
+.user-rating .date {
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 1;
+}
+
+.user-rating .details {
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  opacity: 1;
+  margin: 0%;
+}
+
+/* Arvind add Style  */
+
+/* astrologer profile Page */
+
+@media screen and (max-width: 480px) {
+  .pandit_profile_container,
+  .pandit_profile_details,
+  .pandit_profile_image {
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .pandit_profile_inner_container {
+    flex-wrap: wrap;
+  }
+  .contect-icon {
+    width: 25px !important;
+  }
+  .call_details_cart .contect-p1 span {
+    font-size: 12px !important;
+  }
+  .pandit_profile_image {
+    padding: 15px;
+  }
+  .pandit_rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pandit_profile_personal_details {
+    text-align: left !important;
+  }
+  .pandit_profile_descroption {
+    display: flex;
+  }
+  .pandit_profile_personal_details .short_desc {
+    border: 0px solid #eee !important;
+    border-radius: 0px !important;
+    color: #4f4e4e !important;
+    padding: 0px 0px !important;
+    /* background-color: #fff; */
+    margin: 10px 0px !important;
+    letter-spacing: 1px;
+  }
+  .pandit_profile_chat_and_talk_and_report_card {
+    justify-content: space-between !important;
+  }
+  .pandit_profile_inner_container {
+    padding: 0px !important;
+  }
+  .call_card {
+    width: 100px !important;
+    margin-right: 10px !important;
+  }
+  .call_card:last-child {
+    margin: 0px;
+  }
+  .user_image {
+    width: auto !important;
+    height: auto;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+}

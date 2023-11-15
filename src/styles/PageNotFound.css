@@ -1,0 +1,20 @@
+.pagenotfound_container_fluid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagenotfound_contanier {
+  width: 75%;
+  padding: 20px;
+}
+
+@media and, (max-width: 480px) {
+  .pagenotfound_image img {
+    width: 100%;
+  }
+  .pagenotfound_contanier h1,
+  .pagenotfound_contanier h2 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,45 @@
+:root {
+  --main_Color: #ff9c05;
+  --shadow_Color: #eee;
+  --border-color: #eee;
+  --text_white_color: #fff;
+  --text_black_color: #000;
+  --text_caption_color: #999;
+}
+#root
+  > div
+  > header
+  > nav
+  > div.astro-icon.d-flex.justify-content-between
+  > div.MobheaderOuter.container1
+  > div.bar2 {
+  width: 20px;
+}
+
+@media and, (max-width: 480px) {
+  .mob_head_container {
+    width: 100%;
+    background: var(--main_Color) !important;
+    padding: 8px !important;
+  }
+  .mob_head_container .notification {
+    color: var(--text_white_color);
+  }
+  div .logoMob {
+    display: inline-block !important;
+    margin-top: 3px;
+  }
+  .logoDesk {
+    display: none;
+  }
+  .MobheaderOuter {
+    margin-right: 10px;
+    z-index: 8;
+  }
+  .logo_mob {
+    border: 1px solid var(--text_white_color);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+}

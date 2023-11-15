@@ -1,0 +1,26 @@
+.phone_container {
+  border: 1px solid #eee;
+  padding: 0px;
+}
+/* .modal-header {
+    padding: 10px 10px 0px 0px;
+} */
+.modal-body {
+  margin-top: 0px;
+}
+.otp_outter {
+  width: 100%;
+}
+.otp_container input {
+  border-bottom: 1px solid #eee !important;
+  border-radius: 10px 0px !important;
+  width: 50px !important;
+  margin-right: 15px;
+  background-color: #f8f8f8;
+}
+.vrifyoTPbtn {
+  border: 1px solid #ff9c05 !important;
+  background-color: #ff9c05 !important;
+  color: #fff !important;
+  padding: 5px !important;
+}

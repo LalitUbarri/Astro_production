@@ -1,0 +1,25 @@
+.userDetail_container_fluid {
+  width: 100%;
+}
+.breadcrumbs_container {
+  width: 30%;
+  padding: 20px;
+}
+.userInfo_container {
+  width: 70%;
+  padding: 20px;
+  display: flex;
+}
+
+@media screen, (max-width: 480px) {
+  .userDetail_container_fluid {
+    flex-wrap: wrap;
+  }
+  .userInfo_container,
+  .breadcrumbs_container {
+    width: 100%;
+  }
+  div.userInfo_container .available-bls {
+    font-size: 12px !important;
+  }
+}

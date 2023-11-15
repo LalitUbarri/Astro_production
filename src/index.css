@@ -1,0 +1,3998 @@
+@font-face {
+  /* font-family: SF-Regular; */
+  font-family: Roboto;
+  /* src: url("./styles/FontsFree-Net-SFProDisplay-Regular.ttf"); */
+  src: url("./fonts/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Roboto" !important;
+}
+
+:root {
+  --form-control-color: rebeccapurple;
+  --talk_bg_color:#F68334;
+  --talk_mob_bg_color:#5CB7F0;
+  --chat_bg_color:#F3914E;
+  --chat_mob_bg_color:#FD86D4;
+  --report_bg_color:#F6A66F;
+  --report_mob_bg_color:#5DC23F;
+  --stone_bg_color:#F8BB90;
+  --stone_mob_bg_color:#FFBF1F;
+  --our_astrologer_color:#F1A13A;
+  --consult_astrologer_color:#F1A13A;
+  --offline_color:red;
+  --head_color:#F1A13A;
+  --consultBtn_color:#2C6E19;
+  --text_white_color:#fff; 
+  --border_color:#dee2e6;
+  --gradient_color:linear-gradient(80deg, #FFBF1F, #F1A13A);
+  --text_size_desktop18:18px;
+  --text_size_desktop16:16px;
+  --text_size_desktop14:14px;
+  --text_size_desktop12:12px;
+  --text_size_desktop10:10px;
+  --heading_text_size_desktop30:30px;
+  --heading_text_size_desktop28:28px;
+  --heading_text_size_desktop26:26px;
+  --heading_text_size_desktop24:24px;
+  --heading_text_size_desktop22:22px;
+  --heading_text_size_desktop20:20px;
+  --heading_text_size_desktop18:18px;
+  --heading_text_size_desktop16:16px;
+  --heading_text_size_desktop14:14px;
+}
+
+body {
+  margin: 0;
+  font-size: var(--text_size_desktop16);
+  font-family: "Roboto" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Roboto" !important;
+}
+.point_content_PsychologistPanel,.point_card_body_content{
+  width: 69%;
+}
+.point_content_PsychologistPanel1{
+  width: 40%;
+}
+.shub_card{
+  flex-basis: 23% !important;
+  text-align: center !important;
+  display: inline-block !important;
+  
+}
+.shub_card .card-body{
+  padding-top: 0px !important;
+  font-size: var(--text_size_desktop14);
+  text-align: center !important;
+}
+.shub_card img {
+  width: 150px !important;
+}
+.point_card_container1{
+  width: 60%;
+}
+.btn-bg{
+  border-color: var(--consult_astrologer_color) !important;
+  font-size: 14px !important;
+  
+}
+.our_astrologer_head .Consult_with {
+  color: var(--block) !important;
+}
+.btn-bg:hover{
+  background: var(--gradient_color);
+  color: var(--text_white_color) !important;
+}
+.fa-5{
+  font-size: 20px !important;
+}
+.fa-10{
+  font-size: 25px !important;
+}
+.point_card_container, .point_card_body_avatar{
+  width: 30%;
+  padding: 15px;
+}
+.pd-25{
+  padding: 0px 20px !important;
+}
+aside.emoji-picker-react{
+  width: 100% !important;
+  margin-bottom: 20px;
+}
+.top_btn:focus ,.btn:focus{
+  box-shadow: none !important;
+}
+.Reviewpopup .modal-body{
+  padding: 0px 20px 20px 20px;
+}
+.exampleModalCenter11{
+  z-index: 1110 !important;
+}
+.top_btn{
+  padding: 0px !important;
+    margin: 0px !important;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    z-index: 1;
+}
+.top_btn i{
+  font-size: 40px;
+  background: var(--gradient_color);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+}
+.filter_check{
+  display: flex !important;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.filter_check input{
+  margin-top: 0px !important;
+  position: static !important;
+}
+.point_card{
+  width: 100%;
+  border: 1px solid var(--gradient_color);
+  border-bottom: 3px solid var(--gradient_color);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 2px #eee;
+}
+.point_card .point_card_header{
+  background: var(--gradient_color);
+  color:var(--white);
+  padding:5px 8px
+}
+.point_card .point_card_header .point_rate_card {
+  color:var(--black)
+}
+
+.send111 {
+  /* height: 75%; */
+  /* width: 75%; */
+  max-height: 75vw;
+  max-width: 75vh;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10%;
+  padding: 3px 10px;
+  border: 1px solid #edececfa;
+  /* background: linear-gradient(to bottom, #7dcae8, #3cafdd); */
+  /* box-shadow: 1vh 1vh 0 0.5vh rgba(0,0,0,0.2); */
+}
+.send111:before {
+  content: "";
+  display: block;
+  background: #fff;
+  /* background: linear-gradient(to bottom, #fff, #f0f0f0); */
+  position: absolute;
+  top: 20%;
+  height: 60%;
+  width: 100%;
+  -webkit-clip-path: polygon(10% 0%, 90% 50%, 10% 100%, 20% 55%, 50% 50%, 20% 45%);
+  -moz-clip-path: polygon(10% 0%, 90% 50%, 10% 100%, 20% 55%, 50% 50%, 20% 45%);
+  clip-path: polygon(10% 0%, 90% 50%, 10% 100%, 20% 55%, 50% 50%, 20% 45%);
+  background: rgba(0,0,0,0.3);
+  left: 1%;
+  top: 21%;
+}
+
+.point_card_body{
+  padding: 10px 0px;
+}
+.chatinner_container{
+  width: 100%;
+}
+.point_card_body_content p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #999;
+}
+.pd-50{
+  padding: 0px 20px !important;
+}
+
+#exampleModalCenter .modal-header1{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 11575687656843473;
+}
+.modal_voucher_container1 .close{
+  background-color: var(--chat_bg_color);
+  padding: 0px 10px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  opacity: 0.9;
+
+}
+
+#exampleModalCenter > div > div > div.modal-body {
+  padding: 0px 20px !important;
+  margin-top:0px !important
+}
+/* .wd-100{
+  width: 100% !important;
+  transition: .3s;
+} */
+.BookNow_btn{
+  background-color: var(--consultBtn_color) !important;
+  font-size: 14px !important;
+  padding: 5px 15px !important;
+  color: var(--white) !important;
+  margin: 10px 0px;
+}
+.row-gap-30{
+  row-gap: 15px;
+}
+.desk_top,
+.Ctagory_container {
+  display: none;
+}
+.view-morebtn{
+  padding: 0px;
+  background: none;
+  border: 0px;
+  font-size: var(--text_size_desktop14);
+  color: var(--white);
+  text-decoration: underline;
+  display: block;
+}
+.freesession1{
+  display: none !important;
+}
+.talk_bg{
+  background-color: var(--talk_bg_color) !important;
+}
+.chat_bg{
+  background-color: var(--chat_bg_color) !important;
+}
+.report_bg{
+  background-color: var(--report_bg_color) !important;
+}
+.stone_bg{
+  background-color: var(--stone_bg_color) !important;
+}
+.ourAstrologer_container {
+  width: 100%;
+  /* display: flex; */
+}
+.astro_horoscope_container .ul_tab {
+  width: 100% !important;
+  background-color: var(--white);
+}
+.button_group_container{
+  width: 100%;
+  background-image:url('./images/New-images/Group-383.png');  
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.button_content_container{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button_header{
+  width: 100%;
+  padding: 0px 30px;
+  text-align: center;
+}
+.button_header p{
+  font-size: var(--heading_text_size_desktop20);
+  font-weight: 400;
+  color: var(--text_white_color);
+}
+.button_group{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+.button_group button {
+  width: 45%;
+  border-radius: 30px;
+  border: 1px solid var(--consult_astrologer_color);
+  transition: 0.3s;
+  box-shadow: 0px 0px 10px 2px var(--talk_bg_color);
+}
+.button_group button:hover{
+  background-color: var(--consultBtn_color);
+  color: var(--text_white_color);
+  border-color: var(--consultBtn_color);
+  transition: 0.3s;
+}
+.button_group button img {
+  padding: 10px;
+}
+.horoscope_cat_container{
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+.horoscope_cat{
+  width: 30%;
+  padding: 10px;
+}
+.Choose_other_cat ul{
+  padding: 0px;
+  list-style: none;
+}
+.Select_cat select{
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 5px !important;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.astro_horoscope_container{
+  background-color: var(--white);
+}
+.Choose_other_cat ul li{
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+  line-height: 50px;
+}
+.horoscope_cat_details{
+  width: 68%;
+  padding: 20px;
+}
+.header_row,.astro-navbar{
+  width: 100% !important;
+}
+.astro_horoscope_container .ul_tab .active{
+  background: none !important;
+  color: var(--consult_astrologer_color) !important;
+}
+.our_astrologer_warrper{
+  width: 100%;
+}
+.our_astrologer_head{
+  width: 100%;
+  text-align: center;
+}
+.our_astrologer_head h3{
+  color: #fff;
+  font-size: var(--heading_text_size_desktop30);
+}
+.our_astrologer_head span {
+  color: #000;
+}
+.our_astrologer_warrper_body{
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-gap: 20px;
+  column-gap: 20px;
+  grid-row-gap: 20px;
+  row-gap: 10px;
+  margin: 50px 0px;
+  justify-content: center;
+  
+}
+.our_astrologer_body1{
+  width: 97% !important;
+  border-bottom: 0px !important;
+}
+/*.our_astrologer_body1 .our_astrologer_card{
+  border-bottom: 5px solid var(--black) !important;
+
+}*/
+.our_astrologer_card{
+  border-bottom: 5px solid var(--consult_astrologer_color);
+    border-radius: 10px;
+    min-height: 270px;
+    transition: .2s;
+}.our_astrologer_body1:hover{
+  transform: scale(1.0) !important;
+}
+.our_astrologer_body1:hover img {
+  transform: scale(1.1) !important;
+  transition: .2s;
+}
+.our_astrologer_body:hover{
+  box-shadow: 0px 0px 10px 2px #eee;
+  transform: scale(1.1);
+  transition: .2s;
+}
+.our_astrologer_body{
+  width: 22%;
+  cursor: pointer;
+}
+.our_astrologer_details h5 {
+  font-size: var(--text_size_desktop18);
+  font-weight: 700;
+  margin-top: 10px;
+  /* width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 4px;
+  white-space: nowrap; */
+}
+.our_astrologer_card_head p {
+  font-size: var(--text_size_desktop18);
+  padding: 5px;
+  font-weight: 700;
+  /* color: var(--black) !important; */
+}
+.our_astrologer_details p {
+  font-size: var(--text_size_desktop16);
+  margin-bottom: 10px;  
+}
+
+.our_astrologer_avatar img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.aboutImgouter{
+  background:linear-gradient(to left,rgba(248, 221, 74, 1),
+  rgba(241, 161, 58, 1)) ;
+}
+.aboutImgouter{
+  display: flex;
+  flex: 1;
+}
+.aboutImgouter_container{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 80px 30px;
+}
+.banner_container_img{
+  width: 40%;
+}
+.ios_privacy_policy_container h5 {
+  font-size: var(--heading_text_size_desktop30) !important;
+}
+.ios_privacy_policy_container p {
+  font-size: var(--text_size_desktop16) !important;
+}
+.consultbtn {
+  background-color: var(--consultBtn_color) !important;
+  color: #fff !important;
+  font-size: var(--text_size_desktop16) !important;
+}
+.our_astrologer_details1 {
+  padding: 15px 10px;
+}
+.our_astrologer_details1 h5{
+  font-size: var(--heading_text_size_desktop18);
+  font-weight: bolder;
+}
+.our_astrologer_card_head{
+  background: var(--gradient_color);
+}
+.our_astrologer_card_head p {
+  margin: 0px;
+  color: #fff;
+}
+.howtoconsult_details h5 {
+  font-size: var(--heading_text_size_desktop18);
+}
+.consult_astrologer_warrper{
+  background: var(--gradient_color);
+  padding: 30px;
+  width: 10 0%;
+}
+.Upcoming_container, .astro_services_container,.AstrologicalRemedies_container {
+  margin: 50px 0px;
+  position: relative;
+}
+.Up_comingEvent_Nav .owl-nav{
+  display: block !important;
+  position: absolute;
+  top: -140px;
+  right: 100px;
+}
+.Up_comingEvent_Nav .owl-nav [class*='owl-']:hover{
+  background-color: var(--chat_bg_color) !important;
+  color:var(--white) !important;
+
+}
+.event_card_details{
+  transition: 0.3s;
+}
+.ecvent_card_Title{
+  padding: 20px 35px;
+  position: relative;
+ 
+}
+.AstrologicalRemedies_card_details h5 {
+  font-size: var(--heading_text_size_desktop18) !important;
+}
+.ecvent_card_Title p{
+  margin-bottom: 5px;
+  font-size: var(--text_size_desktop18) !important;
+}
+.e_voucher_card{
+  background-image: url('./images/New-images/voucher-card-gold.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 48%;
+  text-align: left;
+}
+.e_voucher_card:nth-child(even), .modal_voucher_container{
+  background-image: url('./images/New-images/voucher-card1.png') !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 48%;
+  text-align: left;
+}
+
+.e-voucher-body{
+  height: 200px;
+}
+.e-voucher_details{
+  width: 70%;
+  padding: 20px 40px;
+  padding-right: 15px;
+  font-size: 14px;
+}
+.e-voucher_emty{
+  width: 30%;
+}
+.ecvent_card_Title::before{
+  content: '';
+  width: 4px;
+  height: 50px;
+  position: absolute;
+  top: 20;
+  left: 20px;
+  background-color: var(--chat_bg_color);
+}
+.AstrologicalRemedies_body{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.AstrologicalRemedies_head{
+  margin: 40px 0px;
+}
+.AstrologicalRemedies_card{
+  width: 32%;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+  background-color: var(--white);
+  border-bottom: 5px solid var(--consult_astrologer_color);
+  
+}
+.consult-btn{
+  background-color: var(--consultBtn_color) !important;
+  color: var(--white) !important;
+  width: 150px;
+  border-radius: 30px !important;
+  font-size: 14px !important;
+  padding: 7px 0px !important;
+}
+/* #dropdownMenuLink > i{
+  color: var(--head_color);
+  font-size: 16px;
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 15px;
+} */
+.AstrologicalRemedies_card_img img {
+  width: 120px;
+  transition: 0.3s
+}
+.AstrologicalRemedies_card:hover .AstrologicalRemedies_card_img img {
+  transform: scale(1.1);
+  transition: 0.3s
+}
+.AstrologicalRemedies_card:hover {
+  box-shadow: 0px 0px 10px 2px #eee;
+}
+
+.AstrologicalRemedies_card_details p{
+ height: 100px;
+ margin: 0px;
+}
+.bytbn{
+  background: var(--gradient_color) !important;
+  color: var(--white) !important;
+  padding: 10px 50px !important;
+  margin-top: 10px;
+  border-color: var(--gradient_color) !important;
+
+}
+.AstrologicalRemedies_card_img{
+  padding: 15px;
+}
+.AstrologicalRemedies_card_details{
+  text-align: center; 
+}
+.event_item{
+  display: flex;
+  justify-content: center;
+  background-color: var(--white);
+  padding: 10px;
+}
+.event_item:hover .event_card_img img {
+  padding: 25px 25px 0px 25px;
+  border-radius: 20px !important;
+  transform: scale(1.2);
+}
+.testimonial_container{
+  background: var(--gradient_color) !important;
+  padding: 40px 50px;
+}
+.testimonial_item_card {
+  background-color: var(--white);
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 20px;
+  border-bottom: 5px solid #956701
+}
+.right-menu-text p {
+  margin: 0px;
+  text-align: left;
+}
+.testimonial_item{
+  padding: 20px;
+}
+.testimonial_container .up_coming_head1 p {
+  margin-bottom: 0px !important;
+}
+.testimonial_item_card .ecvent_card_Title1{
+  margin-top: 10px;
+}
+.testimonial_item_card img{
+  width: auto !important;
+  display: inline-block !important;
+}
+.event_item:hover .ecvent_card_Title p{
+  color: var(--white);
+  
+}
+.event_item:hover .event_card_details{
+  padding: 20px 0px;
+  transition: 0.3s;
+  background: var(--gradient_color);
+}
+.event_item:hover .ecvent_card_Title::before{
+  background-color: var(--white);
+}
+.event_card_img{
+  padding: 15px 15px 0px 15px;
+  
+}
+.event_card_img img{
+  border-radius: 20px;
+}
+.event_card{
+  width: 95%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px 2px #eee;
+  border-bottom: 5px solid var(--consult_astrologer_color);
+}
+.Up_comingEvent_Nav .owl-nav button.owl-next, .Up_comingEvent_Nav .owl-nav button.owl-prev {
+  background: none !important;
+  border: 1px solid var(--chat_bg_color) !important;
+  color: var(--chat_bg_color) !important;
+  margin-right: -10px;
+}
+div.up_coming_head{
+  text-align: left !important;
+}
+.up_coming_head p {
+  display: inline-block !important;
+}
+.news_vastugyan_contaniner {
+  display: flex;
+  flex: 1;
+  column-gap: 35px;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+#accordionExample{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;  
+  /* align-items: center; */
+  column-gap: 15px;
+  row-gap: 15px;  
+}
+.faqs_container{
+  margin: 20px 0px 0px 0px;
+}
+.faqs_head{
+  margin: 0px 0px 50px 0px;
+}
+.faqs_card_container{
+  width: 100%;
+  display: flex;
+  column-gap: 25px;
+}
+div.Upcoming_container {
+  margin-bottom: 0px !important;
+}
+div.testimonial_container {
+  margin-top: 0px !important;
+  padding: 10px;
+}
+.faqs_card{
+  width: 48%;
+}
+.accordion-item1{
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 5px 8px 1px #eee;
+  border-bottom: 5px solid var(--consult_astrologer_color);
+}
+.accordion-item{
+  width: 47%;
+ box-shadow: 0 8px 5px 1px #eee;
+  border-radius: 20px;
+}
+
+.ecvent_card_Title1 p {
+  font-size: var(--heading_text_size_desktop18);
+}
+.ecvent_card_Title1 p.date,.ecvent_card_Title p.date {
+  font-size: var(--text_size_desktop16) !important;
+}
+.acc_btn p{
+  margin: 0px;
+  color: var(--black) !important;
+  font-size: var(--heading_text_size_desktop18);
+  text-align: left;
+}
+.acc_btn{
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white) !important;
+  text-decoration: none !important;
+  
+}
+.card-body{
+  text-align: justify !important;
+}
+.card-body_img{
+  padding:0px 15px 10px 15px;
+}
+.acc_btn:focus {
+  box-shadow: none !important;
+}
+.accordion-item1 
+.card-header {
+  background:none !important;
+  border: 0px !important;
+}
+.counter_container{
+  background: var(--gradient_color);
+  padding: 50px 0px;
+  margin: 50px 0px;
+}
+.howtoconsult_details{
+  margin-top: 20px;
+}
+.howtoconsult_container{
+  margin-bottom: 50px;
+}
+.our_astrologer_body{
+  border: 1px solid #eee;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  /* min-height: 270px; */
+}
+.our_astrologer_card_body{
+  padding: 15px;
+}
+
+.activeRecharge .astrologer_icon_for_chat p {
+  color: #fff !important;
+}
+.otp-input-wrapper {
+  width: 240px;
+  text-align: left;
+  display: inline-block;
+}
+.otp-input-wrapper input {
+  padding: 0;
+  width: 264px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #3e3e3e;
+  background-color: transparent;
+  border: 0;
+  margin-left: 12px;
+  letter-spacing: 48px;
+  font-family: sans-serif !important;
+}
+.header-right{
+  position: relative;
+  z-index: 1;
+}
+.otp-input-wrapper input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.otp-input-wrapper svg {
+  position: relative;
+  display: block;
+  width: 240px;
+  height: 2px;
+}
+.feedback_form {
+  width: 600px;
+  border: 1px solid #eee;
+  background-color: #fff;
+}
+.feedback_form form,
+.feedback_form form input,
+.feedback_form form textarea {
+  padding: 20px;
+}
+.feedback_form form button {
+  background: #ff9c05;
+  color: #fff;
+  padding: 10px !important;
+  border: 1px solid #ff9c05;
+  border-radius: 30px;
+  width: 200px;
+}
+.feedback_form form .form-group i {
+  font-size: 30px;
+}
+
+#partitioned {
+  padding-left: 15px;
+  margin-right: -42px;
+  letter-spacing: 42px;
+  border: 0;
+  background-image: linear-gradient(
+    to left,
+    black 70%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 220px;
+  min-width: 190px;
+}
+.dropdown_horoscope{
+  position: relative;
+}
+.dropdown_horoscope:hover{
+  background-color: #f6f8fa;
+  color: var(--black);
+  padding: 0.5rem;
+  /* font-size: 16px; */
+}
+.column-gap-30{
+  column-gap:20px;
+}
+.dropdown_horoscope:hover .nav_container{
+  display: block;
+  transition: 1s;
+  top: 40px;
+}
+.Top_btn{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 111;
+  width: 70px;
+  height: 70px;
+  background-color: var(--our_astrologer_color);
+  border-radius:50%;
+  border: 1px solid var(--our_astrologer_color);
+  box-shadow: 0px 0px 10px 2px #eee;
+}
+.nav_container{
+  list-style: none !important;
+  text-align: left;
+  background-color: #f6f8fa;
+  color: #999;
+  padding:0px 0px;
+  width: 300px;
+  /* box-shadow: 0px 0px 10px 2px #cf782c; */
+  display: flex;
+  position: absolute;
+  z-index: 45;
+  top: 30px;
+  left: 0px;
+  /* border-radius: 4px; */
+  overflow:hidden;
+  transition: 1s;
+  display: none;
+}
+.card_width{
+  width: 40% !important;
+}
+.nav_card{
+  width: 60%;
+}
+.nav_card_img img{
+  height: -webkit-fill-available;
+}
+.nav_card ul{
+  list-style: none !important;
+  text-align: left;
+  padding:0px 0px;
+}
+.nav_link_card{
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
+}
+.nav_link_card:hover{
+  background: var(--gradient_color);
+  color:#fff
+}
+.nav_link_card:last-child{
+  border-bottom: 0px;
+}
+
+#divInner {
+  left: 0;
+  position: sticky;
+}
+
+#divOuter {
+  width: 190px;
+  overflow: hidden;
+}
+.feed_header {
+  padding: 10px;
+}
+.header_suport {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 2346578;
+}
+.feed_header p {
+  font-size: 14px;
+  padding: 0px 30px;
+}
+.chat-nav_ {
+  width: 20%;
+}
+.chatinner_container {
+  overflow-y: hidden;
+}
+.chatSocket_msg_recevied {
+  min-height: 570px;
+  height: 562px;
+  padding: 15px;
+  overflow: scroll;
+}
+div p input.otp_input_box {
+  width: 100% !important;
+  letter-spacing: 35px;
+  border: 0px !important;
+}
+.bolg_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bolg_wrapper {
+  width: 100%;
+  margin: 40px 0px;
+}
+.blog_inner_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.bolg_card {
+  width: 100%;
+  border: 1px solid #eee;
+  box-shadow: 0px 0px 10px 2px #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+}
+.blog_img {
+  width: 40%;
+}
+.blog_img img {
+  width: 100%;
+  /* min-height: 300px; */
+}
+.blog_author_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 30px;
+}
+.blog_author_container p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #999;
+}
+.readmorebtn {
+  color: #174ac0 !important;
+  padding: 0px !important;
+}
+.readmorebtn:focus {
+  box-shadow: none !important;
+}
+.blog_details {
+  width: 60%;
+  text-align: justify;
+  padding: 15px;
+}
+.blog_details .blog_head {
+  font-size: 26px;
+  text-align: left;
+  font-weight: bolder;
+  padding: 10px 15px 0px 0px;
+}
+
+.country_bg {
+  background-color: #fd9940;
+  color: #fff;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.activeRecharge {
+  background-color: #418f21 !important;
+  color: #fff !important;
+}
+.btn_bg_white {
+  background-color: #fff !important;
+}
+.row_daily {
+  display: flex;
+  flex-wrap: wrap;
+}
+.endBtn_for_chat {
+  font-size: 10px;
+  border: 1px solid #fff;
+  padding: 0px 20px;
+  border-radius: 10px;
+  background-color: red;
+  color: #fff;
+}
+.activeHoro {
+  /* background: #fd9940 !important; */
+  background: #fff7e4 !important;
+}
+.horoscopeIcon {
+  box-shadow: 0px 0px 10px 2px #eee;
+}
+.splash_screen_container {
+  background-color: #fd9940;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logo_container,
+.term_container {
+  width: 100% !important;
+  padding: 0px 30px;
+}
+.desk_top,
+.mob_news_vastugyan_contaniner {
+  display: none;
+}
+.term_container {
+  bottom: 0;
+  padding: 20px 30px;
+  color: #fff;
+  font-weight: bold;
+}
+.term_container span {
+  color: #3352ff;
+  text-decoration: underline;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.logo_img {
+  -webkit-animation: rotating 3s linear infinite;
+  -moz-animation: rotating 3s linear infinite;
+  -ms-animation: rotating 3s linear infinite;
+  -o-animation: rotating 3s linear infinite;
+  animation: rotating 3s linear infinite;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+.notification {
+  position: relative;
+}
+
+div .logoMob {
+  display: none !important;
+}
+.reviewer_name {
+  display: block;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.d-none1 {
+  display: none !important;
+}
+.nav-link {
+  cursor: pointer;
+}
+.wth-100 {
+  width: 100% !important;
+}
+.astrology_news_container,.vastuGyan_container{
+  box-shadow: 0px 10px 10px 2px #eee;
+  width: 47%;
+  border-radius: 20px;
+  border-bottom: 5px solid var(--consult_astrologer_color);
+}
+.getkundali_card {
+  width: 48%;
+}
+#getkundali {
+  border: 1px solid #eee;
+  padding: 30px;
+  text-align: left;
+  color: #777;
+  background-color: #fff;
+}
+#getkundali .MuiIconButton-label {
+  color: #ff9c05;
+}
+.btn_container_submit {
+  width: 100% !important;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.border-danger {
+  border-color: red !important;
+}
+.iagree_container {
+  text-align: left;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 0 10px 2px #eee;
+  padding: 20px;
+  background-color: #fff;
+  background-color: var(--white);
+}
+.label_jio {
+  width: 80%;
+  text-align: left;
+}
+.slot_card {
+  font-size: 12px;
+  border: 1px solid #eee;
+  background-color: #418f21;
+  border-radius: 30px;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+.slot_card span {
+  color: #fff;
+}
+.check_agree {
+  margin-right: 10px;
+  margin-top: -2px;
+  width: 10%;
+  height: 20px;
+}
+
+.border-danger:focus-visible {
+  outline-color: red !important;
+}
+.err_msg {
+  font-size: 14px;
+  margin-top: 5px !important;
+  display: block;
+}
+.d-nonemob2 {
+  display: none;
+}
+.DFlex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.fil-btn-verified {
+  float: right;
+  margin-right: 3rem;
+}
+
+.otp-field {
+  border: 0px !important;
+  border-radius: 0px !important;
+}
+
+.phone_con input {
+  width: 100% !important;
+}
+.phone_count {
+  width: 100% !important;
+}
+.phone_count input {
+  width: 100% !important;
+  height: 45px !important;
+}
+.otpInput {
+  border: 0px !important;
+  border-bottom: 1px solid #999 !important;
+  width: 80% !important;
+}
+body > div.fade.modal.show > div > div > div.modal-body > div > div {
+  width: 60% !important;
+}
+.otp_container_ span {
+  display: inline-block;
+}
+.sub_total_cont,
+.desc_price,
+.shipping_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  line-height: 45px;
+}
+.address_inner {
+  border: 1px solid #eee;
+  padding: 10px;
+}
+.add_label span {
+  font-size: 14px !important;
+}
+.festival_table{
+  width: 100%;
+  border: 1px solid #eee;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.festi_tab_head,.festi_tab_body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: calc(100%);
+  border-bottom: 1px solid #eee;
+}
+.festi_tab_body:last-child{
+  border-bottom: 0px;
+}
+.Shubh_contaner{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.overlayBox p {
+  text-transform: lowercase !important;
+}
+.poojaNotFound{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+.viceo_card{
+  width: calc(100%/4);
+}
+.muhurat_card {
+  width: calc(100%/4 -20px);
+}
+.muhurat_card p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.festi_tab_tr,.festi_tab_td{
+  width: calc(100%/3);
+  text-align: center;
+  padding: 10px;
+  border-right: 1px solid #eee;
+}
+.festi_tab_tr:last-child, .festi_tab_td:last-child{
+  border-right: 0px;
+}
+
+
+.total_price {
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0px;
+}
+.productSummary_container_fluid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.carousel_items {
+  height: auto !important;
+}
+.summary_container {
+  width: 70%;
+  border: 1px solid #eee;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+.product_summary {
+  width: 60%;
+}
+.product_payment_info {
+  width: 35%;
+}
+.product_head {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0px;
+}
+.payment_info,
+.prod_border {
+  border: 1px solid #eee;
+  padding: 20px;
+}
+.product_inner {
+  width: 65%;
+}
+
+.NavHead {
+  box-shadow: 0px 0px 5px 1px #eee;
+  background-color: #fff;
+}
+.topNav {
+  /* background-color: #FF9C05; */
+  background: var(--gradient_color);
+  /* height: 44px !important;  */
+  display: flex;
+}
+.bottom-menu-link {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  color: white;
+  cursor: pointer;
+  font-size: var(--text_size_desktop16);
+}
+.bottom-menu-link:first-child{
+  padding-left: 4rem;
+}
+.mainMenu {
+  background-color: #fff !important;
+  color: #fff !important;
+}
+.mainMenu .nav .nav-item a {
+  color: #000 !important;
+}
+.carousel-control-next {
+  right: -18px !important;
+}
+.d-flex_A {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex_J {
+  display: flex;
+  align-items: center;
+}
+a {
+  cursor: pointer !important;
+}
+.reviewD .details {
+  margin-left: 45px;
+}
+button.submitbtn {
+  background-color: #ff9c05;
+  color: #fff;
+  width: 30%;
+}
+
+.userBalance {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.rechargeBnt {
+  padding: 0px 10px;
+  font-size: 16px;
+  border-radius: 0px;
+  background: #418f21;
+  color: #fff;
+  border: 0px;
+  margin-left: 10px;
+}
+
+/*  */
+.DataTable {
+  width: 100%;
+  overflow: auto !important;
+  padding: 0px;
+}
+.Table_Warrper,
+.tableD {
+  width: 100%;
+}
+.tableD,
+.tableHead {
+  border: 1px solid #eee;
+}
+.tableBody,
+.tableHead {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.tableHead {
+  background-color: #f8f8f8;
+}
+.Tbody,
+.Thead {
+  width: 16%;
+  padding: 8px 0px;
+  font-size: 14px;
+  text-align: left;
+}
+.Tbody:first-child,
+.Thead:first-child {
+  padding: 0px 0px 0px 15px;
+}
+.Thead {
+  font-weight: 600;
+  color: #292929 !important;
+}
+.tableBody {
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+.wtBody {
+  width: 33.33%;
+}
+.Tbody p,
+.Thead {
+  margin: 0;
+}
+
+.MuiGrid-justify-xs-space-around {
+  justify-content: flex-start !important;
+}
+.loginSignup_modal_container {
+  padding: 0px 30px 0px 30px;
+}
+.phoneInputwithcode {
+  width: 100%;
+}
+.loginSignup_modal_container input {
+  border: 0px !important;
+}
+
+.loginSignup_modal_container input:focus-visible,
+.loginSignup_modal_container input:focus {
+  outline: 0px solid crimson;
+  border-radius: 0px;
+  box-shadow: 0px 0px;
+}
+.phoneInputwithcode input {
+  width: 100%;
+}
+.red_color {
+  color: red !important;
+}
+.green_color {
+  color: #418f21 !important;
+}
+.bg_green {
+  background-color: #418f21 !important;
+}
+.order_history_table {
+  border: 1px solid #eee;
+}
+.order_history_data_not_found {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardd {
+  overflow: hidden;
+}
+
+.cardd_busy::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: red;
+  transition: 0.3s ease-in-out;
+}
+.cardd_busy::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: red;
+  transition: 0.3s ease-in-out;
+}
+
+.cardd_ofline::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: #ff9c05;
+  transition: 0.3s ease-in-out;
+}
+.cardd_ofline::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: #ff9c05;
+  transition: 0.3s ease-in-out;
+}
+.cardd_online::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: #418f21;
+  transition: 0.3s ease-in-out;
+}
+.cardd_online::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: #418f21;
+  transition: 0.3s ease-in-out;
+}
+.cardd_busy:hover::before,
+.cardd_busy:hover::after {
+  width: 50%;
+  transition: 0.3s ease-in-out;
+}
+.cardd_online:hover::before,
+.cardd_online:hover::after {
+  width: 50%;
+  transition: 0.3s ease-in-out;
+}
+.cardd_ofline:hover::before,
+.cardd_ofline:hover::after {
+  width: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.getlink_container-fluid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.getlink_container {
+  width: 75%;
+  padding: 15px;
+}
+.error {
+  border-color: red !important;
+  border: 1px solid;
+}
+@media (min-width: 991px) and (max-width: 1366px) {
+  
+  .asrto-carousel img {
+    height: 320px !important;
+}
+div.right-header-box {
+  padding: 13px 0px 13.5px 24px !important;
+}
+  div.header {
+    min-height: auto;
+    padding: 0px 0px 0px 0px;
+  }
+  .astrology img {
+    width: 70px;
+  }
+  button.header-signup-btn,
+  button.header-btnClr {
+    height: auto;
+  }
+  div.carousel-menu .row-cols-1 img {
+    width: 15px;
+  }
+  div.carousel-menu .row-cols-1 p {
+    font-size: 12px;
+  }
+  div.carousel-menu .row-cols-1 {
+    padding: 5px 0px 5px 0px;
+  }
+  div.carousel-menu .row-cols-1:last-child {
+    padding: 12px;
+  }
+  ol.carousel-indicators {
+    bottom: -5px;
+  }
+  .carousel-inner{
+    height: auto !important;
+  }
+  div.modal-dialog-m {
+    /* max-width: 750px; */
+  }
+  img.pandit-img {
+    width: 200px;
+    height: 200px;
+  }
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link,
+  .l-text,
+  .log-in,
+  .form-input-login input,
+  .tnc span,
+  .input-input-r,
+  .input-input span:first-child,
+  a {
+    font-size: var(--text_size_desktop14)!important;
+  }
+  div.form-input-login span {
+    padding: 6px 10px !important;
+  }
+  /* div.form-input-login input {
+    padding: 0px 0px !important;
+    margin-bottom: 0px;
+  } */
+  p.log-in {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  div.log-in-btn button {
+    padding: 5px 0px;
+    font-size: 12px;
+  }
+  p.tnc {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  button.fil-btn-otp {
+    padding: 8px 29px;
+    font-size: 12px;
+  }
+  span.input-input-r {
+    margin-left: 0px;
+  }
+  div.fil {
+    /* width: 250px !important; */
+  }
+  div.page-footer {
+    /* margin-bottom: 59px; */
+  }
+  div.support .modal-dialog {
+    max-width: 750px;
+  }
+  div.support .modal-content {
+    padding: 0px 28px;
+  }
+  .support .modal-header .close {
+    padding: 5px 0px 5px 0px !important;
+    margin: 0px !important;
+  }
+}
+/* .opnBtn:hover {
+  display: none;
+  text-decoration: none !important;
+} */
+.Appbg {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 2px #eee;
+  padding: 20px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  z-index: 111111;
+  display: none;
+}
+.openBtn {
+  background-color: #ff9c05 !important;
+  padding: 5px 40px !important;
+  color: #fff !important;
+  font-size: 18px;
+  display: flex !important;
+  align-items: center;
+  font-weight: bold !important;
+  margin-left: 50%;
+}
+.opnBtn {
+  text-decoration: none !important;
+}
+
+.openApp {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.colseBtn {
+  position: absolute;
+  top: -85px;
+  right: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .d-flex_A_mob {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  div.Horoscope_Inner{
+    width: 30% !important;
+  }
+  .openBtn {
+    padding: 0px 20px !important;
+    margin-top: 20px;
+    margin-left: 22%;
+  }
+  .colseBtn {
+    position: absolute;
+    top: -110px;
+    right: 0px;
+  }
+  .page-header .page-details input {
+    margin-top: 10px !important;
+  }
+  div.page-header .page-details .available-bls,
+  div.page-header .page-details .btn {
+    padding: 5px;
+    font-size: 14px;
+    height: auto;
+  }
+  div.page-header .page-details .bls {
+    font-size: 14px;
+    padding: 5px;
+    height: auto;
+  }
+  div.profile-body .profile-pic {
+    max-width: initial;
+  }
+  div.profile-body {
+    text-align: center;
+  }
+  div.profile-pic .right-tik {
+    top: 62% !important;
+    transform: translate(-50%, -62%);
+  }
+  ul.navbar-nav {
+    flex-direction: row;
+  }
+  div.modal-body-left-s,
+  div.modal-body-left-ll {
+    background: none;
+    height: auto;
+    justify-content: end;
+  }
+  .pandit-img,
+  .bottom-img,
+  .pandit-img-1,
+  .appdown {
+    display: none;
+  }
+  div.form-input-login {
+    padding: 0px 20px;
+  }
+  div.form-input-login input {
+    padding: 5px 10px;
+    margin-bottom: 15px;
+  }
+  div.form-input-login span {
+    padding: 6px 10px !important;
+  }
+  div.form-input-login span.lookicon {
+    padding: 6px 12px !important;
+  }
+  div.log-in-btn button {
+    padding: 5px 0px;
+  }
+  div.fill-up {
+    text-align: left;
+    padding: 20px;
+  }
+  .fill-up {
+    float: right;
+    margin-right: 3rem;
+  }
+
+  button.fil-btn-otp {
+    padding: 5px 10px;
+  }
+  p.contect-p1 {
+    font-size: 14px !important;
+  }
+  div.contect-icon-row .row {
+    justify-content: center;
+  }
+  div.star-rating {
+    display: flex !important;
+    flex-direction: row-reverse;
+  }
+  p.details {
+    text-align: left;
+  }
+  div.userIcon,
+  .reviewDate {
+    width: 50%;
+  }
+  a.col-wyt {
+    text-align: left;
+  }
+  div.item {
+    width: auto;
+  }
+  .horoscopeIcon {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+
+
+  .horoscopeimg {
+    width: 100%;
+  }
+  .horoscopeTitle .date {
+    font-size: 12px;
+    color: #999;
+  }
+  div.profileUser {
+    text-align: center !important;
+  }
+  .modal {
+    z-index: 111232434 !important;
+  }
+  .d-nonemob2 {
+    display: block;
+    margin-left: 3rem;
+  }
+  .form-body {
+    margin-left: 0px !important;
+  }
+  .DateofBirth,
+  .TimeOfBirth {
+    width: 100%;
+  }
+  .MuiInputBase-input {
+    width: 78% !important;
+  }
+  .mob_D-none {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .right-box{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 15px;
+  }
+  .vart_card,.shub_card{
+    flex-basis: 100% !important;
+  }
+  .e_voucher_card:nth-child(even), .modal_voucher_container, .e_voucher_card{
+    width: 100%;
+  }
+  
+  .ios_privacy_policy_container1 img{
+    display: none;
+  }
+  .ios_privacy_policy_container h5 {
+    font-size: var(--heading_text_size_desktop14) !important;
+  }
+  .ios_privacy_policy_container p {
+    font-size: var(--text_size_desktop12) !important;
+  }
+  .points_body{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .point_content_PsychologistPanel, .point_card_container{
+    width: 100%;
+  }
+  div.right-header-box img{
+    width: 60px !important;
+  }
+  .msg-recived span{
+    display: block;
+  }
+  .button_group button img {
+    width: 18px;
+    padding: 10px 0px !important;
+  }
+  .button_group button{
+    width: 50%;
+  }
+  #root > div > div:nth-child(1) > div > div > div.button_group > button:nth-child(2) > img{
+    width: 20px;
+  }
+  /* .freesession_banner_container .infinite-scroll-component__outerdiv {
+    width: 100%;
+  } */
+  div.freesession1{
+    width: 100% !important;
+    justify-content: right !important;
+    display: flex !important;
+  }
+.mob_freesession{
+    width: 60% !important;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  .our_astrologers_container p{
+    font-size: 12px ;
+  }
+  .mob_freesession .right-menu-text{
+    margin: 3px 0px !important;
+    font-size: 12px !important;
+  }
+  .right-header-box{
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content: center !important;
+    padding: 10px 0px !important;
+    border: 0px !important;
+    border-radius: 10px;
+    background: none !important;
+  }
+  div.right-header div.padd_card{
+    padding: 0px !important;
+  }
+  /* .talk_bg1{
+    background-color: var(--talk_mob_bg_color) !important;
+  }
+  .chat_bg1{
+    background-color: var(--chat_mob_bg_color) !important;
+  }
+  .report_bg1{
+    background-color: var(--report_mob_bg_color) !important;
+  }
+  .stone_bg1{
+    background-color: var(--stone_mob_bg_color) !important;
+  } */
+.button_img_, .right-menu-text{
+  width: 100%;
+  color: #000 !important;
+  margin-top: 10px;
+}
+.AstrologicalRemedies_card{
+  width: 47%;
+}
+/* .AstrologicalRemedies_body{
+  flex-wrap: nowrap !important;
+} */
+.up_coming_body .mt-5{
+  margin-top:0px !important
+}
+.AstrologicalRemedies_card_img{
+  padding: 15px 0px !important;
+}
+.bytbn{
+  padding: 5px 30px !important;
+  font-size: 14px !important;
+}
+  div.ourAstrologer_container.mt-5,
+  .faqs_card_container, .weekly_top_container, 
+  .youCanAslocheck_container{
+    margin-top: 20px !important;
+    flex-wrap: wrap;
+  }
+  div.ourAstrologer_container.mb-5,
+  .faqs_head,.bg_img div.mb-100,.faqs_container{
+    margin-bottom: 20px !important;
+  }
+  .howtoconsult_card{
+    width: 50% !important;
+    font-size: 14px;
+    border-bottom: 1px dashed var(--consult_astrologer_color);
+    border-right: 1px dashed var(--consult_astrologer_color) !important;
+  }
+  .howtoconsult_card:last-child{
+    border-right: 0px !important;
+  }
+  .howtoconsult_card:nth-child(2){
+    border-right: 0px !important;
+  }
+  .howtoconsult_card:nth-child(3){
+    border-bottom: 0px !important;
+  }
+  
+  .howtoconsult_card h5{
+    font-size: 16px;
+  }
+
+  .our_astrologer_warrper_body{
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-template-rows: 1fr;
+    width: 100%;
+    overflow-x: auto;
+    margin: 10px;
+  }
+  #myTab{
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-template-rows: 1fr;
+    overflow-x: auto;
+  }
+  #myTab li {
+    grid-row: 1;
+    grid-column: auto;
+  }
+  .our_astrologer_body{ 
+    grid-row: 1;
+    grid-column: auto;
+  }
+  .weekandYearly_horoscope_container{
+    display: block !important;
+  }
+  .weekly_top_body{
+    flex-wrap: wrap-reverse;
+  }
+  .our_astrologer_body,
+ .faqs_card,
+  .asrto-carousel_warrper, 
+  .weekly_top_card_img,
+  .youCanAslocheck_card,
+  .asrto-Buttons_container,
+  .horoscope_cat,
+  .horoscope_cat_details,
+  .weekly_top_card{
+    width: 100% !important;
+  }
+  .testimonial_item{
+    padding: 10px;
+  }
+  .testimonial_item_card{
+    padding: 20px;
+  }
+  .testimonial_container,
+  .marriage_contanier,
+  .horoscope_cat_details{
+    margin-bottom: 100px !important;
+  }
+  div.video_item {
+    height: 200px !important;
+    padding: 15px 10px !important;
+}
+ 
+  .our_astrologer_warrper,.consult_astrologer_warrper{
+    padding: 15px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .our_astrologer_head h3{
+    font-size: 20px;
+  }
+  .Upcoming_container, 
+  .astro_services_container, 
+  .AstrologicalRemedies_container,
+  .AstrologicalRemedies_head,
+  .counter_container {
+    margin: 20px 0px;
+  }
+  .ecvent_card_Title p{
+    font-size: 10px !important;
+  }
+  .acc_btn p, 
+  .AstrologicalRemedies_card_details p,
+  .astro_services_head p,
+  .howtoconsult_head p,.our-story p,
+  .Astro_Insights p,.card-body p {
+    font-size: 12px;
+  }
+  .aboutImgouter{
+    display: none;
+  }
+  .news_vastugyan_contaniner{
+    flex-wrap: wrap;
+  }
+  .astrology_news_container, .vastuGyan_container{
+    width: 90%;
+  }
+  .our-story{
+    margin-bottom: 25px !important;
+  }
+  .vastuGyan_container{
+    margin-top: 20px;
+  }
+  .event_item{
+    padding: 5px;
+  }
+  .event_card_img img{
+    border-radius: 5px;
+  }
+ 
+  .daily-horoscope-header,
+  .up_coming_head p, 
+  .Astro_Insights .daily-horoscope-header,
+  .AstrologicalRemedies_head p,
+  .faqs_head p, .AstrologicalRemedies_card_details h5{
+    padding: 5px;
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .Up_comingEvent_Nav .owl-nav{
+    top: -140px;
+    right: 34px;
+  }
+  .Up_comingEvent_Nav .owl-nav button.owl-next, .Up_comingEvent_Nav .owl-nav button.owl-prev{
+    width: 25px !important;
+    height: 25px !important;
+    font-size: 30px !important;
+  }
+  .Up_comingEvent_Nav .owl-nav button.owl-prev{
+    left: -30px !important;
+  }
+  .mob_news_vastugyan_contaniner {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #eee;
+    display: block;
+  }
+  .viceo_card{
+    width: calc(100%/1);
+  }
+  .bolg_wrapper,.point_content_PsychologistPanel1,.point_card_container1 {
+    width: 100%;
+  }
+  .blog_img,
+  .blog_details,
+  .blog_author_container {
+    width: 100%;
+  }
+  .blogs_head h3 {
+    font-size: 18px;
+  }
+  .blog_details .blog_head {
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+  }
+  div.blog_author_container p,.button_group button  {
+    font-size: 10px !important;
+  }
+  .button_group_container{
+    margin-bottom: 90px;
+  }
+  .bolg_card {
+    flex-wrap: wrap;
+  }
+  .input-input p {
+    justify-content: center;
+  }
+  .table_head,
+  .table_body,
+  .table_body1 {
+    border: 0px !important;
+  }
+  .valid-box span:first-child {
+    font-size: 12px !important;
+    font-family: SF-Regular;
+    margin-right: 5px !important;
+    color: #222222;
+  }
+  .otp-text-p .form-control,
+  .input-input p input {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .valid-box span:nth-child(2) {
+    color: #174ac0 !important;
+    padding: 1px 5px !important;
+    border: 1px solid #9a9a9a !important;
+    font-size: 12px !important;
+  }
+  .tnc {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+  }
+  .chatSocket_msg_recevied {
+    height: 88vh !important;
+  }
+  .support .modal-content {
+    padding: 0px !important;
+    width: 90% !important;
+  }
+  .daily-horoscope-box {
+    border: 1px solid #eee !important;
+    padding: 5px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #eee;
+  }
+
+  .row_daily {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 65px !important;
+  }
+  .daily-horoscope-box .details {
+    text-align: justify !important;
+  }
+  .mob-kundali {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .kundali-nav {
+    padding: 10px 0px !important;
+    margin: 0px 10px !important;
+  }
+  .daily-horoscope-box p,
+  .tnc span,
+  .tnc,
+  .input-input-r,
+  .log-in-btn button,
+  p.log-in,
+  .table thead th,
+  .table td,
+  .table th,
+  .kundali-nav,
+  .marriage_contanier p,
+  .conclusion-result,.bolg_card p {
+    font-size: 12px !important;
+  }
+  #root
+    > div
+    > div.modal.modal-m
+    > div
+    > div
+    > div.modal-body.modal-body-m
+    > div
+    > div
+    > div.input-input.otp-text-p
+    > p
+    > div
+    > div:nth-child(4)
+    > input {
+    margin-right: 0px;
+  }
+  div.modal.userProfileData_container {
+    z-index: 1111111 !important;
+  }
+  .tick-pro-img {
+    z-index: 15 !important;
+  }
+  .modal-header button.closebtn_login {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  div.star-rating {
+    justify-content: center !important;
+  }
+  .freesession_banner_container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px #eee;
+  }
+  .mob_alart_container {
+    width: 300px !important;
+  }
+  .mob_alart_container .modal-header,
+  .mob_alart_container .modal-body,
+  .mob_alart_container .modal-footer,
+  .v-apply,
+  .popup1 .modal-header {
+    padding: 0px !important;
+  }
+  .v-apply {
+    padding: 10px 0px !important;
+  }
+  .voucher_code_container {
+    padding: 15px;
+  }
+  .voucher_code_container .modal-content {
+    padding: 10px;
+  }
+  .modal-title,
+  .upcoming-fest-container h3,
+  .marriage_details_contanier h4,
+  .marriage_headeing h2,
+  .card-title,.button_header p {
+    font-size: 14px !important;
+  }
+  .popup1 .modal-content {
+    height: auto !important;
+  }
+  .mob_alart_container .modal-body {
+    text-align: center;
+  }
+  .icon_alert {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .alert_msg {
+    width: 100%;
+    margin: 0px !important;
+  }
+  .mob_alart_container .modal-body {
+    font-size: 12px !important;
+    padding: 0px 10px !important;
+    line-height: 14px;
+  }
+  .c-text {
+    margin: 0px !important;
+  }
+  .home-modal-content {
+    padding: 15px 15px 15px 15px !important;
+    max-width: 300px !important;
+  }
+  .m-btn {
+    width: auto !important;
+  }
+  .mob_alart_container .close,
+  .voucher_code_container .close,
+  .userProfileData_container .close {
+    background: #ff9c05 !important;
+    border-radius: 30px;
+    padding: 5px !important;
+    box-shadow: 0px 0px 10px 2px #eee;
+    height: 25px;
+    width: 25px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  /* .chatSocket_container {
+    margin-top: 10px;
+  } */
+  .wt_table_container,
+  .wt_body_card {
+    width: 100%;
+  }
+  .dailyHoroscape .owl-dots {
+    display: none !important;
+  }
+  .wt_head {
+    width: 100%;
+    padding: 5px;
+    background-color: #dcdcdcc6;
+  }
+  .wt_head p {
+    font-size: 14px;
+    /* font-weight: bolder; */
+    margin-bottom: 0px;
+  }
+  .wt_body_card {
+    border-bottom: 1px solid #eee;
+  }
+  .card_wt_user {
+    width: 70%;
+    padding: 8px 15px;
+    text-align: left;
+  }
+  .card_wt_user p {
+    margin-bottom: 0px;
+    color: #777;
+    font-size: 10px;
+  }
+  .head_wt {
+    margin-bottom: 10px !important;
+    font-size: 12px !important;
+    color: #292929 !important;
+  }
+  .card_wt_t {
+    width: 30%;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .wt_data_container {
+    margin-top: 10px;
+  }
+  .support .modal-body button {
+    height: 35px !important;
+    font-size: 12px !important;
+  }
+  .astroMall_img {
+    width: 70px !important;
+    height: 70px !important;
+    top: -25px !important;
+  }
+  .form_inner_container .mt-3,
+  .form_inner_container .mb-3 {
+    margin: 0px !important;
+  }
+  .horoscopeTitle,
+  .privacy_container h2 {
+    margin-top: 10px !important;
+  }
+  .horoscopeTitle p {
+    margin-bottom: 5px;
+  }
+
+  .chat_and_talk_Back1 {
+    width: 100%;
+    text-align: left;
+  }
+  .jiouser_modal_content {
+    width: 85% !important;
+  }
+  .modal-header .close {
+    margin: -10px -5px 0rem auto !important;
+  }
+  .mob_modal_content {
+    width: calc(100% - 3rem) !important;
+  }
+  .mob_modal_content h4,
+  .kundali-nav,
+  .chat_and_talk_Back span,
+  .mob-kundali_from .book-now,
+  .astroMall_heading,
+  .about-header,
+  .privacy_container h2,
+  .privacy_container h3,
+  .cart_heading,
+  .pandit_profile_headeing h3,
+  .AboutUser h3,
+  .ReviewHead h3,
+  .conclusion-title {
+    font-size: 14px !important;
+  }
+  .details_container {
+    padding: 0px 15px !important;
+  }
+  .modal-dialog-centered {
+    justify-content: center !important;
+  }
+  .mb-mt-20 {
+    margin-top: 20px !important;
+  }
+  .mob-kundali_from {
+    padding: 15px !important;
+    margin-bottom: 70px;
+  }
+
+  .category_card p {
+    margin-bottom: 0px;
+  }
+  .bottomTab_container {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding: 5px 15px;
+    box-shadow: 0px 0px 10px 2px #eee;
+    z-index: 11;
+    background-color: #fff;
+  }
+  .Ctagory_container {
+    display: block;
+  }
+  .category_inner_container {
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px #eee;
+    padding: 10px;
+  }
+  .Ctagory_container .category_card {
+    width: 23%;
+    padding: 10px;
+  }
+  .tab_container {
+  }
+  .tab_card img {
+    /* width: 15px; */
+  }
+  div.mb-100 {
+    margin-bottom: 90px !important;
+  }
+  .viceo_card {
+    width: 100%;
+    padding: 15px;
+    /* box-shadow: 0px 0px 10px 2px #eee; */
+  }
+  .termsouter ol {
+    padding: 0px 10px !important;
+  }
+  .mob_news_head_container h4 {
+    color: #dd7d25;
+    font-size: 14px !important;
+    font-weight: bolder;
+  }
+  .astro_insigth .astro_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 2px #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .matching-box-heading,
+  .tab_card p,
+  .about-subheading {
+    font-size: 12px !important;
+    /* font-weight: bold; */
+  }
+  .matching-row-field,
+  .mobChatlist {
+    margin: 10px 0px !important;
+  }
+  .mob_480 {
+    display: none !important;
+  }
+  .mob_nav li div{
+    width: 100%;
+    position: relative;
+    color: #000;
+  }
+
+  .mob_nav li div.dropdown-toggle::after{
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.4em solid;
+    border-right: 0.4em solid transparent;
+    border-bottom: 0;
+    border-left: 0.4em solid transparent;
+    position: absolute;
+    right: 0px;
+    top: 23px;
+  }
+  .mob_nav li ul{
+    width: 100%;
+    display: none;
+    list-style: none;
+    padding: 0px;
+  }
+  .nav_container{
+    position: static;
+  }
+  .mob_nav li:hover .nav_container {
+    display: block;
+  }
+  .desk_top {
+    display: block;
+  }
+  .head_mob {
+    width: 100%;
+    text-align: left;
+  }
+  div.support_modal {
+    z-index: 111195 !important;
+  }
+  div.astrologer_icon_for_call p {
+    font-size: 12px !important;
+    margin: 0px 0px 10px 0px !important;
+    font-weight: 600;
+  }
+  .blinking-green {
+    width: 7px !important;
+    height: 7px !important;
+  }
+  .talk_toAstrologer,
+  .astrology_profile1 {
+    height: 130px !important;
+    box-shadow: 0px 0px 10px 2px #eee;
+  }
+  div.astrologer_icon_for_chat p {
+    font-size: 8px !important;
+  }
+  .overflow_Hidden div.card-parent_serves {
+    margin: 5px 0px 10px 0px !important;
+  }
+  div.cardd div,
+  .mob_news_head_container p,
+  .tab_card p,
+  .Ctagory_container .category_card p,
+  .cart-item,
+  .cart_item_title caption,
+  .q-1 {
+    font-size: 12px !important;
+  }
+  .dropdown:focus-visible,
+  .dropdown .btn:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .astrology_profile1 img {
+    width: 30px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .newsicon img {
+    width: 30% !important;
+  }
+  .wallet_icon {
+    background-color: #dcdcdcc6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div.recharge-bls div.available-bls {
+    background: none !important;
+    color: #292929 !important;
+  }
+  div.recharge-bls .bls {
+    border: 0px !important;
+    font-size: 12px !important;
+    padding: 0px !important;
+  }
+  .title_widthfull {
+    width: 80% !important;
+    display: block !important;
+    text-align: center;
+  }
+  div.pandit_profile_chat_and_talk_and_report_card {
+    margin-top: 0px !important;
+  }
+  div.mob-rechargebtn a.btn {
+    background-color: #fd9940 !important;
+    border-radius: 30px !important;
+    font-size: 10px !important;
+    padding: 5px 10px !important;
+  }
+  div.page-header .page-name,
+  div.page-header .page-details {
+    padding: 5px !important;
+    width: 100%;
+    justify-content: space-between !important;
+    align-items: center;
+  }
+  .astrology-news-content p:first-child,
+  .splash_screen_container label,
+  .mob-kundali_from label,
+  .mob-kundali_from input,
+  .horoscopeTitle p,
+  .mobChatlist,
+  .mobChatlist .cart,
+  .mobChatlist .buy,
+  #profile label,
+  #profile input,
+  #profile select,
+  #profile button,
+  .about_container p,
+  .support input,
+  .cart_heading1 strong,
+  .paymet_details strong,
+  .proceed-checkout,
+  .card_wt_t span,
+  .pandit_profile_descroption p,
+  .pandit_profile_exp p,
+  .AboutUser p {
+    font-size: 12px !important;
+  }
+  .astrology-news-content p,
+  .astro_insigth p {
+    font-size: 12px !important;
+  }
+  .about_container p {
+    text-align: justify !important;
+  }
+  /* .news_vastugyan_contaniner {
+    display: flex !important;
+  } */
+  .newsicon {
+    justify-content: center;
+    max-width: none !important;
+    padding: 5px !;
+  }
+  .flex-direction {
+    display: flex;
+    /* flex-direction: column-reverse !important; */
+  }
+  .our-story .our-story-header {
+    margin: 15px 0px 0px 0px !important;
+    font-size: 14px !important;
+  }
+  .our-story .row {
+    margin-bottom: 0px !important;
+  }
+  .our-story .row .mt-4 {
+    margin-top: 10px !important;
+  }
+  .page-footer {
+    padding: 24px 10px 27px 10px !important;
+  }
+  .footer-link {
+    text-align: left !important;
+    font-size: 12px !important;
+  }
+  .astrology-news {
+    padding: 10px !important;
+    flex-direction: column;
+    justify-content: center;
+  }
+  img.report_icon1 {
+    width: 25px !important;
+  }
+  div.astrologer_icon_for_call img {
+    padding: 10px;
+    margin-top: 0px;
+    width: 50px;
+  }
+  .card2 div {
+    display: flex !important;
+  }
+  /* #recharge {
+    margin-top: 30px;
+  } */
+  .chat_and_talk_filter {
+    margin-right: 25px;
+  }
+  .chat_and_talk_Back img {
+    width: 25px !important;
+  }
+  img.verified_tik {
+    position: absolute;
+    bottom: 0px;
+    margin-right: -20%;
+    transform: translate(-50%, 40%);
+    width: 18px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: -38%;
+    transform: translate(50%, 40%);
+    width: 18px;
+  }
+  div#recharge1 {
+    width: 50% !important;
+  }
+  table.table-order-n {
+    width: 100% !important;
+    margin-top: 15px !important;
+  }
+  div.chat-up {
+    margin-left: 10px !important;
+    margin-top: 0px !important;
+  }
+  .head_mob span {
+    font-size: 12px;
+    color: #dd7d25;
+    font-weight: bold;
+  }
+  div.pro-pi {
+    margin-bottom: 0px !important;
+  }
+  .pro-pi button {
+    margin-top: 35px !important;
+    font-size: 14px !important;
+  }
+  #recharge_page div.Astro-img {
+    height: 55px !important;
+    padding: 6px !important;
+  }
+  #recharge_page div.astro-card img {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50%;
+  }
+  #recharge_page .cards {
+    margin: 0px !important;
+    grid-auto-columns: 31% !important;
+    grid-column-gap: 10px !important;
+    margin-top: -10px !important;
+  }
+  #recharge_page .voucher-input {
+    margin-bottom: 5px !important;
+  }
+  .input-vo {
+    padding: 10px 10px !important;
+    font-size: 12px !important;
+  }
+  .voucher-apply span img {
+    width: 20px;
+  }
+  .astrologer_avater {
+    display: flex;
+    justify-content: center;
+  }
+  .astrologer_desc .desc,
+  .astrologer_language .eng,
+  .astrologer_exp .exp {
+    font-size: 10px !important;
+  }
+  .voucher-apply span,
+  .footer-about-astrology-content,
+  .mob_nav li,
+  div.astrologer_heading h6,
+  .astrologer_rate_card p {
+    font-size: 12px !important;
+  }
+  .chat_talk_btn_container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mob_nav li {
+    /* display: flex;
+    align-items: center; */
+  }
+  .menu-icon {
+    width: 17px !important;
+    height: auto;
+  }
+  .footer-about-astrology {
+    font-size: 16px !important;
+  }
+  .voucher-apply span.right_arrow img {
+    width: 10px;
+  }
+  #recharge_page .chat-oo {
+    margin-top: 0px !important;
+  }
+  #recharge_page .mb-480 {
+    display: none;
+  }
+  .loadMore {
+    font-size: 12px !important;
+  }
+  /* .chat_and_talk_Back span {
+    font-size: 12px !important;
+  } */
+  #recharge_page span.b {
+    white-space: nowrap;
+    width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+  }
+  #recharge_page {
+    padding: 0px !important;
+    margin-top: 5px;
+  }
+  #recharge_page astrology_profile {
+    padding: 0px !important;
+  }
+  .ads_cont {
+    display: none;
+  }
+  div.mob-mt-10 {
+    margin-top: 10px !important;
+  }
+  .mob-pd-0 {
+    padding: 0px !important;
+  }
+  #recharge_page .our_head {
+    font-size: 12px !important;
+    font-weight: 600;
+    color: #dd7d25 !important;
+    text-align: left;
+  }
+  .chat_form_mob button {
+    height: 40px !important;
+    font-size: 12px !important;
+  }
+
+  div#recharge1 .a-amt,
+  div#recharge1 .a-date,
+  .matching-row-field label,
+  .matching-row-field input,
+  .form-check label,
+  .matching-align-center .book-now,
+  .chat_form_mob label,
+  .chat_form_mob input,
+  .chat_form_mob span,
+  .chat_form_mob select,
+  .pdb25,
+  .store-list p,
+  .pagination__link--disabled a,
+  .pagination__link a,
+  .next a {
+    font-size: 12px !important;
+  }
+  /* div#recharge1 .rechargeBtn {
+    padding: 10px 0px;
+    overflow: hidden;
+  } */
+  div#recharge1 .rate-card {
+    position: relative;
+    justify-content: center;
+    padding: 10px 0px;
+    overflow: hidden;
+  }
+  div#recharge1 .a-date {
+    display: none;
+  }
+  div#recharge1 .off {
+    padding: 5px 10px !important;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 10px;
+    left: -27px;
+    font-size: 10px;
+    width: 100px;
+  }
+
+  .freesession {
+    padding: 0 10px !important;
+  }
+  div.termsouter ol li,
+  div.termsouter ol li p,
+  div.termsouter p,
+  .iagree_container label {
+    font-size: 12px !important;
+    text-align: justify;
+  }
+  .cards {
+    grid-auto-columns: 49% !important;
+    grid-column-gap: 10px !important;
+  }
+  .card2 {
+    padding: 5px !important;
+  }
+
+  .sliderImg {
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 0px 0px !important;
+  }
+  .sliderImg img {
+    border-radius: 10px;
+  }
+  div.Our_Astrologer p,
+  .overlayBox h2 {
+    font-size: 14px !important;
+  }
+
+  .freesession_img img {
+    width: 40px !important;
+  }
+  .freesession p,
+  .freesession span {
+    font-size: 12px !important;
+  }
+  .goods_name span {
+    font-size: 12px;
+  }
+  .card2 div {
+    margin-top: 0px !important;
+  }
+  .daily-horoscope,
+  .not_show_mob_header1 {
+    display: none;
+  }
+  .astrologer_list_card,
+  .freesession_card {
+    margin-right: 0px !important;
+  }
+  .modal-header h4 {
+    margin-left: 23px;
+    margin-top: 0px;
+    font-size: 12px !important;
+    font-weight: bold;
+  }
+  .mob_modal_content .submitbtn {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    width: 200px;
+    border-radius: 30px;
+  }
+  .mob_modal_content .modal-header {
+    padding-top: 10px !important;
+  }
+  .mob_modal_content .form-group {
+    margin-bottom: 0px !important;
+  }
+  .mob_modal_content .modal-header,
+  .mob_modal_content .modal-body {
+    padding: 0px 20px;
+  }
+  .modal-content label,
+  .modal-content input {
+    font-size: 12px !important;
+  }
+  .support form {
+    margin-top: 20px;
+  }
+  .support form input {
+    padding: 20px;
+  }
+
+  .table_container {
+    overflow: scroll;
+  }
+  .table-order-n {
+    width: 800px !important;
+  }
+  .user_details_cont {
+    margin-bottom: 20px;
+  }
+  div.freewidth {
+    width: 100% !important;
+  }
+  .cards {
+    grid-auto-columns: 49% !important;
+    grid-column-gap: 10px !important;
+  }
+
+  .card2 {
+    margin: 0px !important;
+  }
+
+  .pagination_container {
+    position: relative !important;
+  }
+  .userReview div.userIcon {
+    width: 80% !important;
+  }
+  .reviewDate {
+    width: 45% !important;
+  }
+  .reviewer_name {
+    font-size: 12px !important;
+  }
+  .astrologer_avater .astrologer_avater_wrapper {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  #getkundali .getkundali_card,
+  .productSummary_container_fluid,
+  .summary_container,
+  .product_summary,
+  .product_payment_info,
+  .product_inner,
+  .prod_border img {
+    width: 100% !important;
+  }
+  .product_details {
+    margin-top: 20px;
+  }
+  .price_after_desc h4,
+  .price_desc p,
+  .price_desc span {
+    font-size: 16px !important;
+  }
+  .summary_container,
+  .prod_border {
+    flex-wrap: wrap !important;
+  }
+  .productSummary_container_fluid {
+    padding: 20px !important;
+  }
+  .Tbody,
+  .Thead {
+    font-size: 10px;
+  }
+  .astro-icon .logoDesk {
+    width: 70px !important;
+  }
+  .home_inner_container1 {
+    width: 100% !important;
+    padding: 20px;
+  }
+  .inner_product_container {
+    flex-wrap: wrap;
+  }
+  .product_image_container {
+    margin: 0px !important;
+    width: 100% !important;
+  }
+  .product_details_container h3 {
+    font-size: 18px !important;
+  }
+  .prod_head {
+    margin-top: 20px;
+  }
+  .list_of_kundalis {
+    flex-wrap: wrap !important;
+  }
+  .item_of_kundalis {
+    width: 48% !important;
+    margin-bottom: 15px;
+  }
+  .prod_btn_group {
+    position: static !important;
+  }
+  .price_percentage span {
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+  }
+  .name {
+    padding: 0px !important;
+  }
+  div.pagination-cl {
+    padding: 0px !important;
+    max-width: 100% !important;
+    position: static !important;
+    top: 0px !important;
+    left: 0px !important;
+    text-align: center !important;
+  }
+  .pagination-cl nav {
+    margin-left: 0px !important;
+  }
+  .wtBody {
+    width: 38.33% !important;
+  }
+  .mobBody {
+    width: 45% !important;
+  }
+  div.modal-body-left-s,
+  div.modal-body-left-ll,
+  .astro_mob {
+    display: none !important;
+  }
+  .card {
+    max-width: 100% !important;
+  }
+  .form_container .row {
+    width: 100% !important;
+    display: block !important;
+  }
+  .form_container .col {
+    width: 100% !important;
+  }
+  .getlink_container {
+    width: 100% !important;
+  }
+  .getlink_container .col {
+    width: 100% !important;
+  }
+  .getlink_container .row {
+    display: block;
+  }
+  .astroMall_container {
+    width: 100% !important;
+    padding: 10px;
+  }
+  .astroMall_inner_container {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .astroMall_card {
+    width: 45% !important;
+    margin-right: 0px !important;
+    height: 120px !important;
+    margin-bottom: 45px !important;
+  }
+  .astroMall_img img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .mob-mt-100 {
+    margin-top: 100px !important;
+  }
+  .chat-oo {
+    width: calc(100% - 20px) !important;
+  }
+  .cart-border-min {
+    max-width: 100% !important;
+  }
+  .page-header,
+  .page-body {
+    padding: 0px 0px;
+  }
+  .item-head {
+    margin-top: 10px;
+    text-align: center !important;
+  }
+  .item-desc {
+    text-align: center !important;
+  }
+  .bottom-send-chat img:nth-child(2),
+  button.msg_send_btn {
+    margin: 0px !important;
+  }
+  div.chat_mob {
+    display: none !important;
+  }
+  .navbar-m {
+    margin-top: 15px;
+  }
+  .show-l {
+    display: block !important;
+  }
+  .form-input-login {
+    margin-bottom: 10px;
+  }
+  .log-in-btn {
+    margin-top: 20px !important;
+    width: 100%;
+  }
+  .input-input-r {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+    border: 0px !important;
+  }
+  .userBalance {
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .page_header_view {
+    max-width: 100% !important;
+  }
+  .page-header .page-details {
+    justify-content: flex-start !important;
+    /* flex-wrap: wrap; */
+  }
+  .shot-by {
+    width: 100%;
+  }
+  .recharge-bls {
+    margin: 0px;
+  }
+  .side-menu {
+    max-width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .form-body {
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+  }
+  .footer-about-astrology {
+    text-align: center !important;
+  }
+  .mr-50{
+    margin-right: 50px
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .Appbg {
+    display: flex;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .cards {
+    grid-auto-columns: calc(100% / 3) !important;
+    grid-column-gap: 0px !important;
+    justify-content: flex-start !important;
+  }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .Appbg {
+    display: flex;
+  }
+  div.Horoscope_Inner{
+    width: 30% !important;
+  }
+  .cards {
+    grid-auto-columns: calc(100% / 3) !important;
+    grid-column-gap: 0px !important;
+    justify-content: flex-start !important;
+  }
+
+  .d-nonemob2,
+  .MobheaderOuter,
+  .mob_D-none {
+    display: block !important;
+  }
+  .d-flex_A_mob {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .d-none1 {
+    display: none !important;
+  }
+
+  .MobMenu {
+    width: 35% !important;
+  }
+  .mob_nav {
+    height: 80vh !important;
+  }
+  div.carousel-menu .row-cols-1 .new-store img {
+    width: 75px;
+  }
+  div.mobsidemenu {
+    max-width: 33% !important;
+    flex: 33% !important;
+  }
+  div.mobChatlist {
+    flex: 67% !important;
+    max-width: 67% !important;
+  }
+  .mobRow {
+    display: block !important;
+  }
+  .page-header .page-name {
+    max-width: 50% !important;
+  }
+  .page-header .page-details {
+    justify-content: flex-start !important;
+  }
+  #root
+    > div
+    > div:nth-child(3)
+    > div.page-header
+    > div
+    > div.col-12.col-md-8.page-details.text-right
+    > div:nth-child(1) {
+    padding-left: 0px !important;
+  }
+  div.userIcon {
+    width: 30%;
+  }
+  .mob_profile {
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+  }
+  .mob_profile1 {
+    flex: 75% !important;
+    max-width: 75% !important;
+  }
+  .mobAstromall {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+  .pandit-img,
+  .bottom-img,
+  .pandit-img-1,
+  .appdown {
+    display: none;
+  }
+  ul.navbar-nav {
+    flex-direction: row;
+  }
+  div.modal-body-left-s,
+  div.modal-body-left-ll {
+    background: none;
+    height: auto;
+    justify-content: end;
+  }
+  img.pro-img {
+    left: 20% !important;
+  }
+  img.tick-pro-img {
+    left: -13% !important;
+  }
+  .mobAddCart {
+    flex: 0 0 48% !important;
+    max-width: 48% !important;
+  }
+  .mobCart {
+    flex: 0 0 52% !important;
+    max-width: 52% !important;
+  }
+  .voucher-apply span ~ span {
+    margin-left: 5px !important;
+  }
+  .show-s {
+    display: none !important;
+  }
+  .m-d-none {
+    display: block !important;
+  }
+  .modal-dialog-m {
+    max-width: 70% !important;
+  }
+  .navbar-m {
+    padding: 20px 42px !important;
+  }
+  div.MuiInputBase-input,
+  div.MuiInputBase-root {
+    width: 100% !important;
+  }
+  div.pagination-cl {
+    position: static !important;
+    margin-right: 70px;
+  }
+  div.page_header_view {
+    max-width: 100% !important;
+    width: 100% !important;
+    flex: 100% !important;
+  }
+  .store-img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .cart {
+    width: 100%;
+  }
+  div.mobsidemenu {
+    max-width: 33% !important;
+    -webkit-flex: 33% 1 !important;
+    flex: 33% 1 !important;
+  }
+  div.mobChatlist {
+    -webkit-flex: 67% 1 !important;
+    flex: 67% 1 !important;
+    max-width: 67% !important;
+  }
+  /* .DFlex{
+  flex-wrap: wrap;
+} */
+  .w-112 {
+    flex-wrap: wrap;
+  }
+}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) {
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link,
+  .l-text,
+  .log-in,
+  .form-input-login input,
+  .tnc span,
+  .input-input-r,
+  .input-input span:first-child,
+  a {
+    font-size: 13px !important;
+  }
+  .modal-body-left-s,
+  .modal-body-left-ll {
+    height: 45vh !important;
+  }
+  div.form-input-login span {
+    padding: 3.5px 10px !important;
+  }
+}
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link,
+  .l-text,
+  .log-in,
+  .form-input-login input,
+  .tnc span,
+  .input-input-r,
+  .input-input span:first-child,
+  a {
+    font-size: 13px !important;
+  }
+}
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation: landscape) {
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link,
+  .l-text,
+  .log-in,
+  .form-input-login input,
+  .tnc span,
+  .input-input-r,
+  .input-input span:first-child,
+  a {
+    font-size: 13px !important;
+  }
+}
+
+.table_container {
+  width: 500px;
+  border: 1px solid #eee;
+  overflow: scroll;
+}
+.table_had,
+.table_had_tr {
+  width: 100%;
+}
+.table_th {
+  font-weight: 600;
+}
+.table_th,
+.table_td {
+  width: 200px !important;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+.payment_success_container {
+  background-color: #fff;
+}
+.payment_success_inner_container {
+  width: 50%;
+}
+.payment_success_image {
+  width: 100%;
+}
+.payment_success_image img {
+  width: 400px;
+}
+.backbtn {
+  color: blue !important;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  .cardd {
+    width: 23% !important;
+  }
+}
+
+:root {
+  --orange: #fd9940;
+  --darkorange: #dd7d25;
+  --platinum: #e5e5e5;
+  --black: #2b2d42;
+  --white: #fff;
+  --thumb: #edf2f4;
+}
+
+.cards {
+  display: grid;
+  grid-auto-columns: 100%;
+  grid-column-gap: 0px;
+  grid-auto-flow: column;
+  padding: 5px 0px;
+  list-style: none;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  justify-content: center;
+  grid-auto-columns: calc(100% / 4);
+  
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+  scroll-snap-align: start;
+  transition: all 0.2s;
+}
+
+.card2 .card-title {
+  font-size: 20px;
+}
+
+.card2 .card-content {
+  margin: 20px 0;
+  max-width: 85%;
+}
+
+.card2 .card-link-wrapper {
+  margin-top: auto;
+}
+
+.card2 .card-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: var(--orange);
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.card:hover .card-link {
+  background: var(--darkorange);
+}
+
+.cards::-webkit-scrollbar {
+  height: 12px;
+}
+
+.cards::-webkit-scrollbar-thumb,
+.cards::-webkit-scrollbar-track {
+  display: none;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background: var(--darkorange);
+}
+
+.cards::-webkit-scrollbar-track {
+  background: var(--thumb);
+}
+
+@media (min-width: 500px) {
+  .cards {
+    grid-auto-columns: calc(50% - 10px);
+    grid-column-gap: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .mobsidemenu {
+    display: none !important;
+  }
+  .cards {
+    grid-auto-columns: calc(calc(100% / 2) - 20px);
+    grid-column-gap: 0px;
+    justify-content: flex-start;
+  }
+  div.cardd {
+    margin: 15px !important;
+    width: 45% !important;
+  }
+  .astrologer_list_card {
+    width: 48% !important;
+  }
+  .astrologer_list_container {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .cards {
+    grid-auto-columns: calc(24%);
+    grid-column-gap: 0px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .freewidth {
+    width: 100% !important;
+  }
+  .astro-userinfo .btn {
+    padding: 0px 5px !important;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 20px !important;
+  }
+  #root
+    > div
+    > header
+    > nav
+    > div.astro-icon.d-flex.justify-content-between
+    > div.MobheaderOuter.container1
+    > div.bar2 {
+    width: 15px !important;
+  }
+  .astrology_profile1 {
+    height: 130px !important;
+  }
+  div.cardd {
+    width: 40% !important;
+    margin: 10px !important;
+  }
+  .card2 {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+}
+
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation: landscape) {
+  .cards {
+    grid-auto-columns: calc(50% - 10px) !important;
+    grid-column-gap: 10px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  
+  .h-scroll {
+    height: 175px !important;
+    overflow-y: auto !important;
+  }
+  .pagination-cl nav {
+    width: auto;
+  }
+  .mob-kundali ul {
+    flex-wrap: nowrap !important;
+    overflow: auto !important;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1366px) {
+  div.container{ 
+   max-width: calc(100% - 150px) !important;
+ }
+ .astrology_profile1{
+  margin: 0px !important;
+ }
+ .card-parent{
+  column-gap: 15px;
+ }
+}
+@media screen and (min-width:1366px) and (max-width:1920px) {
+ div.container{ 
+  max-width: calc(100% - 220px) !important;
+}
+ol.carousel-indicators {
+  bottom: -5px;
+}
+}
+@media screen and (min-width:1367px) and (max-width:2560px) {
+  .container{ 
+   max-width: calc(100% - 600px) !important;
+ }
+ }
+
+@media  and, (min-width:300px) and  (max-width:600px) {
+  .astro-contactus, .astro-login{
+    display: none !important;
+  }
+  .button_group button img {
+    padding: 12px;
+  }
+  .button_group button{
+    font-size: 13px;
+  }
+}
+
+/* Arvind 21-06-23 upcoming events */
+
+.aboutImgouter2{
+  background-image: url(./images/upcomingEvents/bgBanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .overlayBox2{
+      position: absolute;
+      top: 50%;
+      transform: translate(0px, -50%);
+      text-align: start;
+    
+  }
+  
+  .upcoming-fest-container h3{
+    font-weight: 700;
+  }
+  
+  .overlayBox2 h1{
+    font-weight: 800;
+  }
+  .upcoming-fest-container span{
+    color: #F1A13A;
+  }
+  
+  .carousel .thumbs-wrapper, .control-dots, .carousel-status{
+    display: none;
+  }
+  
+  .carouselCard {
+    padding: 0rem 0.5rem;
+  }
+  .carouselCard .card{
+    text-align: justify;
+    max-width: 100%;
+  }
+   .btn-color{
+  background-color: #ff9c05 !important;
+  color: #ffff !important;
+  }
+  
+  .carouselCard .card-body{
+    padding: 0.25rem !important;
+    display: flex;
+  }
+  
+  
+  .titlecontainer img{
+    width: 5px !important;
+  }
+  
+  .card-body-container{
+    padding-left: 5px;
+  }
+  
+  .bgonecard{
+  background-color: #ff9c05 !important;
+  }
+  .bgonecard .overlayBox{
+    text-align: left;
+  padding-left: 5%;
+  }
+  
+  .containerform .form-group input{
+    box-shadow: 3px 3px #00000040  !important;
+    padding: 35px !important;
+    border-left: 1px solid #0000 !important;
+    border-top: 0px !important;
+  }
+  
+  
+  .form-btn button{
+    padding: 1.5rem 2rem !important;
+    font-weight: 700;
+    width: 100%;
+  }
+  
+  .carousel-control-prev {
+    height: 50px;
+    left: unset !important;
+    position: fixed !important;
+    top: -5px !important;
+    right: 50%;
+    color: gray !important;
+  }
+  
+  .carousel-control-next {
+    height: 50px;
+    right: unset !important;
+    position: fixed !important;
+    top: -5px !important;
+    left: 50%;
+    color: gray !important;
+  }
+  .lfet-margin{
+    margin-left: 3rem;
+  }
+  .planetry {
+    height: 550px;
+  }
+  .planetry h5{
+    font-weight: 700;
+  }
+  .vatpage{
+    border-right: 1px solid #000;
+  }
+  .vatpage p{
+    text-align: justify;
+  }
+  
+  @media screen and (max-width: 767px) {
+  
+    .lfet-margin{
+  margin-left: auto;
+    }
+    .overlayBox2 h1{
+      font-size: 1.5rem;
+    }
+    .containerform .form-group input{
+      padding: 7px !important;
+    }
+  
+    .form-btn button{
+      padding: 7px !important;
+    }
+    .vatpage{
+      border-right: none;
+    }
+  }
+
+  @media screen and (max-width:840px) {
+    .button_content_container,.button_group{
+      width: 100%;
+    }
+  }
+  
+  .vatCarousel{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+  }
+  .vatCarousel h5{
+    font-weight: 700;
+  }
+  .vatCarouselCard p{
+    text-align: justify;
+  }
+  .vatCarouselCard img{
+    width: 120px !important;
+  }
+  .cardFest1,.cardFest2{
+   
+    align-items: center !important;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.25); */
+  }
+  
+  .topVatCarouselCard{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(244, 172, 82, 1);
+    border-radius: 25px 25px 0px 0px;
+  }
+  div .topVatCarouselCard img{
+    width: 36px;
+  }
+  .vatPurnimaTitle h5{
+    font-weight: 700;
+  }
+  .mangaldoshimg img{
+    width: 100%;
+  }
+  .upcoming-fest-container p{
+    text-align: justify !important;
+  }
+  .facereadingCard img{
+    width: 60px !important;
+    max-height: 55px;
+  }
+  
+  /* Arvind 21-06-23 upcoming events */

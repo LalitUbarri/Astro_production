@@ -1,0 +1,73 @@
+.form-body {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.5px solid #41485350;
+  opacity: 1;
+  margin: 0 0 50px 10px;
+  /* height: 747px; */
+  text-align: left;
+  padding: 20px;
+}
+
+.form-body input,
+select {
+  border: 0.5px solid #9a9a9a50 !important;
+  opacity: 1;
+  border-radius: 0px !important;
+  padding: 6px 0 7px 7px;
+}
+.DateofBirth, .TimeOfBirth{
+  border:1px solid #ddd;
+  display: inline-block;
+  padding: 9px 7px;
+  width: 100%;
+}
+.DateofBirth input, .TimeOfBirth input {
+  padding: 0px;
+}
+.DateofBirth .MuiFormControl-marginNormal, .TimeOfBirth .MuiFormControl-marginNormal{
+  margin-bottom: 0px;
+}
+.form-body label {
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0px;
+  opacity: 0.8;
+}
+
+.form-body button {
+  width: 212px;
+  height: 40px;
+  background: #FF9C05 0% 0% no-repeat padding-box;
+  border: 0.5px solid #FF9C05;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border-radius: 0px;
+}
+.MuiFormControl-marginNormal {
+  margin-top: 0px !important;
+  width: 100%;
+}
+/* .form-body input,
+select {
+  border: none !important;
+} */
+
+.form-body button {
+  width: 20px;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.5px solid #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #FF9C05;
+  opacity: 1;
+  border-radius: 0px;
+}
+.MuiInputBase-root {
+  width: 100% !important;
+}

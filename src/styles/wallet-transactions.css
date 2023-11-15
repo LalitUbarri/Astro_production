@@ -1,0 +1,110 @@
+.wt-body {
+  text-align: left;
+}
+
+.wt-body th {
+  height: 45px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #414853;
+  opacity: 1;
+  background: #edf0f1 0% 0% no-repeat padding-box;
+}
+
+.wt-body tr {
+  /* height: 57px; */
+  background-color: #fff;
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #3c3c46;
+  opacity: 1;
+}
+
+.wt-body th:first-child {
+  width: 40%;
+}
+
+.wt-body th:nth-child(2) {
+  width: 30%;
+}
+
+.wt-body th:nth-child(3) {
+  width: 30%;
+}
+
+.wt-body td {
+  width: 33%;
+}
+
+.wt-body table {
+  border: 0.5px solid #edf0f1;
+}
+
+.wt-body .table td,
+.table th {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.pagination-cl {
+  /* text-align: right; */
+  padding: 0px;
+    /* max-width: 336px; */
+    /* position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center; */
+}
+
+.table thead th {
+  border-bottom: 0px;
+}
+
+.wt-body .page-item {
+  text-align: left;
+  font: normal normal normal 12px/14px SF Pro Display;
+  letter-spacing: 0px;
+  color: #414853;
+  opacity: 1;
+}
+
+.wt-body .page-item.active .page-link {
+  background-color: #FF9C05;
+  border-color: #FF9C05;
+}
+.wt-body .page-link {
+  color: #414853;
+  padding: 0px 3px;
+  border: 0px;
+}
+.pagination-cl nav {
+  width: 20%;
+  margin-left: auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.pagination a {
+  padding: 0px 6.5px;
+  border: 0px;
+  color: rgba(74, 77, 88, 0.4);
+}
+
+.pagination__link--active a {
+  color: #fff !important;
+  background-color: #FF9C05;
+  border-color: #FF9C05;
+}
+
+.pagination__link--disabled a {
+  color: rgba(74, 77, 88);
+}

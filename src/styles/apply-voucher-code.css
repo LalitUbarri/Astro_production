@@ -1,0 +1,119 @@
+.voucher-body {
+  height: 117px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.5px solid #41485350;
+  opacity: 1;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.voucher-1 {
+  text-align: center;
+  max-width: 107px;
+  padding: 0px;
+}
+
+.voucher-2 {
+  text-align: left;
+}
+
+.voucher-3 {
+  max-width: 142px;
+  padding: 0px;
+}
+
+.voucher-per {
+  width: 97px;
+  height: 97px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.per {
+  width: 36px;
+  height: 45px;
+  text-align: center;
+  font: normal normal 900 18px/24px SF Pro Display;
+  letter-spacing: 0px;
+  color: #FF9C05;
+  opacity: 1;
+  margin: auto;
+  margin: 10px auto 13px auto;
+}
+
+.deal-btn {
+  width: 97px;
+  height: 29px;
+  background: #f3f3f3 0% 0% no-repeat padding-box;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #3c3c46;
+  opacity: 0.8;
+  padding: 3px;
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+}
+
+.voucher-2 .what {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #3c3c46;
+  opacity: 1;
+  margin-bottom: 8px;
+}
+
+.voucher-2 .details {
+  font-size: 13px;
+  letter-spacing: 0px;
+  color: #3c3c46;
+  opacity: 0.8;
+  margin-bottom: 19px;
+}
+
+.voucher-2 .expire-time {
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #3c3c46;
+  opacity: 0.8;
+  margin-bottom: 0%;
+}
+
+.clock-icon {
+  margin-right: 7px;
+}
+
+.apply img {
+  width: 131px;
+  height: 77px;
+  margin: 13.67px 11px auto 0;
+}
+
+.apply-btn {
+  width: 130px;
+  height: 40px;
+  background: #FF9C05 0% 0% no-repeat padding-box;
+  border: 0.5px solid #FF9C05;
+  border-radius: 2px;
+  opacity: 1;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin: 29px 12px auto auto;
+}
+
+.shared-by {
+  margin: 0%;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #3c3c46;
+  opacity: 0.8;
+  margin-right: 12px;
+}

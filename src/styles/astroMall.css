@@ -1,0 +1,101 @@
+.astroMall_container {
+  width: 75%;
+}
+.astroMall_inner_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.astroMall_card {
+  width: 30%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.astroMall_card::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: #ff9c05;
+  transition: 0.3s ease-in-out;
+}
+.astroMall_card::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: #ff9c05;
+  transition: 0.3s ease-in-out;
+}
+.astroMall_card:hover::before,
+.astroMall_card:hover::after {
+  width: 50%;
+  transition: 0.3s ease-in-out;
+}
+.astroMall_card:hover {
+  box-shadow: 0px 0px 10px 2px #eee;
+}
+.astroMall_card:hover .astroMall_img {
+  border-color: #ff9c05;
+  border-width: 2px;
+}
+.astroMall_card:hover .astroMall_img::before {
+  width: 100%;
+}
+.astroMall_img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -45px;
+  border: 0px solid #eee;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.astroMall_img::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 0%;
+  height: 100px;
+  z-index: 1111;
+  background-color: #ff9c0580;
+  transition: 0.3s ease-in-out;
+  border: 0px solid red;
+  border-radius: 50%;
+}
+/* .astroMall_img::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 50%;
+  height: 100px;
+  background-color: #ff9c05;
+  transition: 0.3s ease-in-out;
+} */
+.astroMall_img img {
+  width: 100px;
+  height: 100px;
+}
+.astroMall_heading {
+  font-size: 22px;
+  color: #4a4848;
+  margin: 0px;
+  margin-top: 60px;
+}
